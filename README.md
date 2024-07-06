@@ -87,38 +87,40 @@ A Topic must have one, and only one User associated with it: the topic starter U
 
 A Post must have one, and only one User associated with it: created by (1). A User may have many or none Posts (0..*). The second association between Post and User is a direct association, meaning we are interested only in one side of the relationship which is what User has edited a given Post. The multiplicity says 0..1, meaning the updated by field may be null (the Post wasn’t edited) and at most may be associated with only one User.
 
-## Wireframes
+# Boards Application
 
-### Homepage
+## Homepage
 
 The homepage lists all available boards.
 
-![Boards Project Wireframe Homepage](https://via.placeholder.com/300)
+![Boards Project Wireframe Homepage](static/img/home.png)
 
-### Topics
+## Topics
 
 When a user clicks on a board, it should list all the topics.
 
-![Boards Project Wireframe Topics](https://via.placeholder.com/300)
+![Boards Project Wireframe Topics](static/img/topics.png)
 
-### New Topic
+## New Topic
 
 The "new topic" screen.
 
-![New Topic Screen](https://via.placeholder.com/300)
+![New Topic Screen](static/img/my_account_edit.png)
 
-### Posts
+## Posts
 
 The topic screen displaying the posts and discussions.
 
-![Topic Posts Listing Screen](https://via.placeholder.com/300)
+![Topic Posts Listing Screen](static/img/posts.png)
 
-### Reply
+## Reply
 
 The reply topic screen with a summary of the posts in reverse order (newest first).
 
-![Reply Topic Screen](https://via.placeholder.com/300)
+![Reply Topic Screen](static/img/class Diagram.png)
 
 To draw your wireframes, you can use the draw.io service, which is free.
 
 ## Conclusion
+
+The Boards Application provides a robust platform for users to create, view, and engage in discussions on various topics. By structuring the application with clear models for boards, topics, posts, and users, we ensure a scalable and maintainable codebase. The use of Django's built-in features like the ORM and admin interface simplifies development and management tasks. The wireframes and class diagrams helped in visualizing the relationships and interactions within the application, leading to a more organized and efficient design process. This project demonstrates the effective use of Django for building a community discussion platform and sets a strong foundation for further enhancements and features.
