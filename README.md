@@ -117,7 +117,7 @@ The topic screen displaying the posts and discussions.
 
 The reply topic screen with a summary of the posts in reverse order (newest first).
 
-![Reply Topic Screen](static/img/class Diagram.png)
+![Reply Topic Screen](static/img/reply.png)
 
 To draw your wireframes, you can use the draw.io service, which is free.
 
